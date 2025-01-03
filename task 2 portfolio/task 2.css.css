@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+
+  header {
+    background-color: #0044cc;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  header .tagline {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #fff;
+  }
+  
+  #about img.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  
+  .bio {
+    max-width: 600px;
+  }
+  
+
+  #skills {
+    background-color: #e2e2e2;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  #skills ul {
+    list-style: none;
+  }
+  
+  #skills li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.1rem;
+  }
+  
+
+  #projects {
+    padding: 2rem 0;
+  }
+  
+  .project {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .project h3 {
+    color: #0044cc;
+  }
+  
+
+  #resume {
+    background-color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+
+  #contact {
+    background-color: #e2e2e2;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  #contact a {
+    text-decoration: none;
+    color: #0044cc;
+  }
+  
+
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer a {
+    color: #ff9900;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    #about {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    #about img {
+      margin-bottom: 1rem;
+    }
+  
+    #skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    #skills li {
+      margin: 10px;
+    }
+  }
+  
